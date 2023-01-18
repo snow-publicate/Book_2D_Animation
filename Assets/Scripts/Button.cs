@@ -12,6 +12,7 @@ public class Button : MonoBehaviour
     public GameObject YesButton; //Button-Yes객체를 담는 변수 선언
     public GameObject NoButton; //Button-No객체를 담는 변수 선언
  
+    //정답을 눌렀을 때 작동하는 함수 선언
     public void Correct()
     {
         //Q, Butten-Yes, Button-No 객체 비활성화
@@ -23,6 +24,7 @@ public class Button : MonoBehaviour
         playableDirector.Play(timeline_Correct);
     }
  
+    //오답을 눌렀을 때 작동하는 함수 선언
     public void Wrong()
     {
         //Q, Butten-Yes, Button-No 객체 비활성화
